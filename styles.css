@@ -1,0 +1,151 @@
+body {
+  font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.list-items {
+  list-style-type: none;
+  display: flex;
+}
+
+.list-items > li {
+  margin-right: 1rem;
+}
+
+.list-items > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list-items > li > a:hover {
+  background-color: #fff;
+  transition: 0.3s;
+  padding: 3px;
+  color: #000;
+}
+
+.main-heading {
+  font-size: 4rem;
+  margin-left: 1.5rem;
+}
+
+.main-motto {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.founders-section {
+  background-color: #000;
+  padding: 1rem;
+}
+
+.founders-section h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.founders {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.founders i {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.name {
+  color: #fff;
+  font-weight: 300;
+  margin-top: 0.3125rem;
+}
+
+.image-descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-right {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.image-descriptions img {
+  width: 41.875rem;
+  height: 26.4375rem;
+  padding: 1rem;
+}
+
+.img-description {
+  display: flex;
+  background-color: lightgrey;
+  margin-top: 1rem;
+}
+
+.img-description > .text-wrapper {
+  margin: auto;
+  color: #000;
+}
+
+.text-wrapper > .title-text {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.text-wrapper > .description {
+  padding: 3.75rem;
+  line-height: 2;
+}
+
+.img-description > .text-wrapper-left {
+  margin: auto;
+  color: #000;
+}
+
+.text-wrapper-left > .title-text-left {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.text-wrapper-left > .description-left {
+  padding: 3.75rem;
+  line-height: 2;
+}
+
+footer {
+  background-color: #000;
+}
+
+footer p {
+  padding: 0.625rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media a {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.social-media a:hover {
+  color: #c32aa3;
+  transition: 0.3s;
+}
