@@ -5,7 +5,6 @@
 
     .list-items {
         flex-direction: column;
-        text-align: center;
         line-height: 1.7;
     }
 
@@ -15,6 +14,46 @@
     }
 
     .main-motto {
+        font-size: 2rem;
+    }
+
+    .founders {
+        flex-direction: column;
+    }
+
+    .founders i {
+        margin-top: 1rem;
+    }
+
+    .image-descriptions img {
+        height: 20rem;
+    }
+
+    .img-description {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+    }
+
+    .main-heading {
+        font-size: 3rem;
+    }
+
+    .list-items {
+        flex-direction: column;
+    }
+
+    .list-items > li > a {
+        text-decoration: underline;
+        text-decoration-color: #fff;
+    }
+
+        .main-motto {
         font-size: 2rem;
     }
 
